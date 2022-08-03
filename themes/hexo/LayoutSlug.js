@@ -59,7 +59,7 @@ export const LayoutSlug = props => {
 
           <article itemScope itemType="https://schema.org/Movie" className="subpixel-antialiased" >
             {/* Notion文章主体 */}
-            <section id='notion-article' className='px-5 justify-center mx-auto max-w-2xl lg:max-w-full'>
+            <section id='notion-article' className='px-5 justify-center mx-auto'>
               {post && <NotionPage post={post} />}
             </section>
 
